@@ -1,0 +1,68 @@
+input{
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    overflow-x: hidden;
+    margin-bottom: 10px;  
+}
+
+.heading{
+    margin-left: 30px;
+}
+
+#first{
+    margin-left: 10px;
+}
+
+#email{
+    display: block;
+    width: 340px;
+    margin-left: 10px;
+}
+
+#btn{
+    display: block;
+    width: 350px;
+    margin-left: 10px;
+    background-color: rgb(29, 118, 213);
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: box-shadow 0.3s;
+}
+
+#btn:hover{
+    background-color: rgb(142, 182, 225);
+}
+
+#btn:active{
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.15);
+}
+
+
+#pickup{
+    margin-top: 10px;
+    margin-left: 10px;
+    display: block;
+    width: 350px;
+}
+
+#destination{
+    margin-left: 10px;
+    display: block;
+    width: 350px;
+}
+
+.sc-btn{
+    padding: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#req{
+    color: white;
+    background-color: rgb(0,0,0);
+    margin-left: 10px;
+}
